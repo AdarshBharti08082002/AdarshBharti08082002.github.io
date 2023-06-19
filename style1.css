@@ -1,0 +1,64 @@
+/* CSS styles */
+
+/* Background color */
+body {
+    background-color: #000;
+  }
+  
+  /* Center the image horizontally */
+  .profile-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 200px; /* adjust the size as needed */
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin-top: 50px;
+    opacity: 0;
+    animation: fade-in 1s ease-in-out forwards;
+  }
+  
+  /* Center the text */
+  .intro-text {
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+    opacity: 0;
+    animation: fade-in 1s ease-in-out 0.5s forwards;
+  }
+  
+  /* Add some spacing between social media links */
+  .social-media {
+    margin-top: 20px;
+    text-align: center;
+    opacity: 0;
+    animation: fade-in 1s ease-in-out 1s forwards;
+  }
+  
+  /* Social media icons */
+  .social-media img {
+    width: 30px; /* adjust the size as needed */
+    margin: 0 5px;
+  }
+  /* Social media icons */
+.social-media img {
+  width: 30px; /* adjust the size as needed */
+  margin: 0 5px;
+  transition: transform 0.3s;
+}
+
+/* Hover animation for social media icons */
+.social-media img:hover {
+  transform: scale(1.2);
+}
+
+  
+  /* Animation keyframes */
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
